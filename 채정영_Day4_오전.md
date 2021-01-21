@@ -7,7 +7,7 @@
 
 이를 `Sementic Image Segmentation` 이라고 한다. 이는 다음과 같이 `Selective Search`라는 algorithm을 써 실제 객체에 해당되는 물체를 찾게 된다. 
 
-![CNN](img/cnn.png)
+![CNN](img/CNN.png)
 
 그렇다면 `R-CNN`은 무엇일까? `R-CNN`은 `Region Convolutionary Neural Network`의 약자로, 다음과 같은 방법을 통해 학습을 한다. 대강 설명하자면 3개의 모듈로 나누어져있는데, 이는 `CNN`(feauture Vector 뽑는 부분),`Bounding Box regression`(박스의 위치), ,`SVM Classifier`(검출된 feature들로 분류하는 것)이다.
 
